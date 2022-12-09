@@ -1,9 +1,3 @@
-/*
-  Made on Jan 9, 2021
-  By MehranMaleki @ Electropeak
-  Home
-*/
-
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 
