@@ -12,6 +12,7 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
 
 ## GPS/GPRS/GPS Shield (B) Datasheet
 <img width='50%' src='https://www.futurashop.it/image/catalog/data/software%20e%20sistemi%20di%20sviluppo/2850-GSMGPSSHIELD/GSM-GPRS-GPS-Shield-B-descr.jpg'/>
+<img width='50%' src='https://img001.prntscr.com/file/img001/vcbBB5IfSKy-tkYDK-DdUw.png'/>
 
 ## GPS/GPRS/GPS Shield (B) 
 <img width='50%' src='https://cdn1.botland.store/59149-pdt_540/gpsgsmgprs-shield-sim808-shield-cap-for-arduino-waveshare-11492.jpg'/>
