@@ -4,6 +4,9 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
 ## Arduino uno datasheet
 <img width='50%' src='https://content.arduino.cc/assets/A000066-pinout.png'/>
 
+## MPU6050 datasheet
+<img width='50%' src='https://img001.prntscr.com/file/img001/8iSTqN5BRt2LHfyjK9S9yQ.png'/>
+
 ## MPU6050 wires 
 <img width='50%' src='https://i.imgur.com/ZO4NPXI.jpg'/>
 
