@@ -13,7 +13,6 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
 ## GPS/GPRS/GPS Shield (B) Datasheet
 <img width='50%' src='https://www.futurashop.it/image/catalog/data/software%20e%20sistemi%20di%20sviluppo/2850-GSMGPSSHIELD/GSM-GPRS-GPS-Shield-B-descr.jpg'/>
 ```
-
 1    SIM808 module
 2    MIC29302 power chip
 3    CP2102: USB TO UART converter
@@ -45,7 +44,6 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
     - SIM_TX: SIM808 UART TX
     - SIM_RX: SIM808 UART RX
 25    IOREF power selection: configure the UART voltage level
-
 ```
 
 ## GPS/GPRS/GPS Shield (B) 
