@@ -10,6 +10,9 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
 ## MPU6050 wires 
 <img width='50%' src='https://i.imgur.com/ZO4NPXI.jpg'/>
 
+## GPS/GPRS/GPS Shield (B) Datasheet
+<img width='50%' src='https://www.futurashop.it/image/catalog/data/software%20e%20sistemi%20di%20sviluppo/2850-GSMGPSSHIELD/GSM-GPRS-GPS-Shield-B-descr.jpg'/>
+
 ## GPS/GPRS/GPS Shield (B) 
 <img width='50%' src='https://cdn1.botland.store/59149-pdt_540/gpsgsmgprs-shield-sim808-shield-cap-for-arduino-waveshare-11492.jpg'/>
 
