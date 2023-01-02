@@ -26,3 +26,6 @@ Using Drones and Advanced Technologies for Automatic Reporting of Vehicular Acci
 
 ## Code 
 using c++ only
+
+
+https://lastminuteengineers.com/adxl335-accelerometer-arduino-tutorial/
