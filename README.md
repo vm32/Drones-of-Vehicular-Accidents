@@ -29,3 +29,8 @@ using c++ only
 
 
 https://lastminuteengineers.com/adxl335-accelerometer-arduino-tutorial/
+
+
+## install CP210 Drivers
+
+https://www.dnatechindia.com/cp-2102-driver-download-installation.html
