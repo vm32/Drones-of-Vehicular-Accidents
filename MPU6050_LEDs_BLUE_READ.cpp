@@ -3,6 +3,8 @@
 #include <Wire.h>
 Adafruit_MPU6050 mpu;
 void setup(void) {
+  pinMode(2,OUTPUT);
+  pinMode(4,OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
 	Serial.begin(115200);
 	// Try to initialize!
@@ -10,6 +12,7 @@ void setup(void) {
 		Serial.println("Failed to find MPU6050 chip");
 		while (1) {
 		  delay(10);
+    
 		}
 	}
 	Serial.println("MPU6050 Found!");
@@ -44,11 +47,18 @@ void loop() {
 	Serial.print(temp.temperature);
 	Serial.println(" C");
 	Serial.println("");
+  digitalWrite(2,HIGH);
+  digitalWrite(4,LOW);
+  delay(150);
+  digitalWrite(2,LOW);
+  digitalWrite(4,HIGH);
+  delay(100);
 	delay(500);
   if (g.gyro.y > 0.10) { 
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
   delay(100);                      // wait for a second
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(100);
+
   };
 }
