@@ -27,8 +27,7 @@ else
 {
     Serial.println("Open the GPS power failure");
 }
-
-
+}
  void loop(){
 if (sim808.getGPS()) {
    Serial.print(sim808.GPSdata.year);
@@ -83,7 +82,7 @@ Serial.print("heading :");
        }
 
 
-  }
+  };
  
 
  void SubmitHttpRequest(float la,float lo, float ws)
@@ -189,7 +188,7 @@ ShowSerialData();
 mySerial.println("");
 delay(100);
 
- }
+ };
 
  void ShowSerialData()
  {
