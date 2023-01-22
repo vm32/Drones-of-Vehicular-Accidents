@@ -1,0 +1,9 @@
+Here is an example of how you could accomplish this:
+
+    Connect the MPU-6050 to the Arduino Uno using I2C communication.
+    In the Arduino code, read the raw data from the accelerometer and gyroscope of the MPU-6050 and store it in variables.
+    Use the data from the accelerometer to calculate the linear acceleration of the vehicle. If the linear acceleration exceeds a certain threshold, it can indicate a crash.
+    Use the data from the gyroscope to calculate the angular velocity of the vehicle. If the angular velocity exceeds a certain threshold, it can indicate a crash.
+    If a crash is detected, use the Arduino to trigger an alert such as sounding a buzzer or sending a message to a designated phone number.
+
+It's worth noting that the above method is just one example and there are multiple ways to detect a car crash using an MPU-6050 sensor and an Arduino uno. Also, detecting a car crash using just a single sensor like MPU6050 is not accurate and you need to use multiple sensor to detect car accident with high accuracy.
