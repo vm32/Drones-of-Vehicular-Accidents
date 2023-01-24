@@ -1,9 +1,15 @@
-Here is an example of how you could accomplish this:
+To detect a simple accident using an MPU6050 accelerometer and gyroscope sensor, you would need to measure the acceleration and angular velocity on the x, y, and z axes.
 
-    Connect the MPU-6050 to the Arduino Uno using I2C communication.
-    In the Arduino code, read the raw data from the accelerometer and gyroscope of the MPU-6050 and store it in variables.
-    Use the data from the accelerometer to calculate the linear acceleration of the vehicle. If the linear acceleration exceeds a certain threshold, it can indicate a crash.
-    Use the data from the gyroscope to calculate the angular velocity of the vehicle. If the angular velocity exceeds a certain threshold, it can indicate a crash.
-    If a crash is detected, use the Arduino to trigger an alert such as sounding a buzzer or sending a message to a designated phone number.
+The accelerometer measures acceleration in g-forces (g), where 1 g is the acceleration due to Earth's gravity. The MPU6050 accelerometer can measure a range of +/- 2g, +/- 4g, +/- 8g, or +/- 16g. In the event of an accident, the accelerometer would detect a sudden increase in acceleration on one or more axes.
 
-It's worth noting that the above method is just one example and there are multiple ways to detect a car crash using an MPU-6050 sensor and an Arduino uno. Also, detecting a car crash using just a single sensor like MPU6050 is not accurate and you need to use multiple sensor to detect car accident with high accuracy.
+The gyroscope measures angular velocity in degrees per second (°/s). The MPU6050 gyroscope can measure a range of +/- 250°/s, +/- 500°/s, or +/- 1000°/s. In the event of an accident, the gyroscope would detect a sudden increase in angular velocity on one or more axes.
+
+To detect an accident, you would need to write an algorithm to monitor the sensor data in real-time, and look for specific patterns of acceleration and angular velocity that indicate a collision has occurred.
+
+To detect an accident you can use different techniques such as:
+
+    Compare the data from the accelerometer and gyroscope to a threshold value that indicate an accident, if the value exceed the threshold you can consider it as an accident.
+    Using machine learning techniques such as neural networks to detect an accident based on the data from the sensor
+    Combining the data from multiple sensors to detect an accident with more accuracy
+
+It is worth noting that, the values of x, y, and z in accelerometer and gyroscope is not fixed, it will change based on the direction of the accident, the type of accident and the sensitivity of the sensor.
