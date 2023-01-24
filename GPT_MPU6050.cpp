@@ -6,7 +6,7 @@ MPU6050 mpu;
 const int threshold = 20; // threshold value for detecting an accident
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   if (!mpu.begin()) {
     Serial.println("Failed to find MPU6050 chip");
