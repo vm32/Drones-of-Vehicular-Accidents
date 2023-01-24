@@ -48,17 +48,31 @@ void loop() {
 	Serial.println(" C");
 	Serial.println("");
   digitalWrite(2,HIGH);
-  digitalWrite(4,LOW);
+  digitalWrite(2,LOW);
   delay(150);
   digitalWrite(2,LOW);
-  digitalWrite(4,HIGH);
+  digitalWrite(2,HIGH);
   delay(100);
 	delay(500);
-  if (g.gyro.y > 0.10) { 
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(100);                      // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  
+  if (g.gyro.y > 0.45) { 
+  digitalWrite(4, HIGH); 
+  delay(100);                     
+  digitalWrite(4, LOW);  
   delay(100);
+  };
 
+  if (a.acceleration.x > 0.06) { 
+  digitalWrite(4, HIGH); 
+  delay(100);                     
+  digitalWrite(4, LOW);  
+  delay(100);
+  };
+
+  if (temp.temperature > 45) { 
+  digitalWrite(4, HIGH); 
+  delay(100);                     
+  digitalWrite(4, LOW);  
+  delay(100);
   };
 }
