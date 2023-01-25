@@ -34,3 +34,6 @@ https://lastminuteengineers.com/adxl335-accelerometer-arduino-tutorial/
 ## install CP210 Drivers
 
 https://www.dnatechindia.com/cp-2102-driver-download-installation.html
+
+##AT+HTTPACTION
+Also, the <method> parameter is a number that indicates the type of request, for example, 0 for GET, 1 for POST, 2 for PUT, and 3 for DELETE.
