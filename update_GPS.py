@@ -11,7 +11,7 @@ access_token = "YOUR_GITHUB_ACCESS_TOKEN"
 repo_name = "YOUR_REPOSITORY_NAME"
 file_path = "path/to/file.txt"
 
-# Replace with the URL that contains the latitude and longitude numbers
+# Replace with the URL that contains the latitude and longitude numbers and the database
 url = "https://example.com/latlong=12.34,-56.78"
 
 response = requests.get(url)
