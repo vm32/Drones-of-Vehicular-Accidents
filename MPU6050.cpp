@@ -57,22 +57,34 @@ void loop() {
   
   if (g.gyro.y > 0.45) { 
   digitalWrite(4, HIGH); 
-  delay(100);                     
-  digitalWrite(4, LOW);  
+  digitalWrite(2,LOW);
+  delay(100);
+  Serial.print("Accident detect on gyro : ");
+  Serial.print(g.gyro.y);                      
+  digitalWrite(4, LOW);
+  digitalWrite(2,LOW);  
   delay(100);
   };
 
   if (a.acceleration.x > 0.06) { 
-  digitalWrite(4, HIGH); 
-  delay(100);                     
-  digitalWrite(4, LOW);  
+  digitalWrite(4, HIGH);
+  digitalWrite(2,LOW); 
+  delay(100);
+  Serial.print("Accident detect on acceleration : "); 
+  Serial.print(a.acceleration.x);                    
+  digitalWrite(4, LOW);
+  digitalWrite(2,LOW);  
   delay(100);
   };
 
   if (temp.temperature > 45) { 
-  digitalWrite(4, HIGH); 
-  delay(100);                     
-  digitalWrite(4, LOW);  
+  digitalWrite(4, HIGH);
+  digitalWrite(2,LOW); 
+  delay(100);
+  Serial.print("temprature is HIGH : "); 
+  Serial.print(temp.temperature);                     
+  digitalWrite(4, LOW);
+  digitalWrite(2,LOW);  
   delay(100);
   };
 }
