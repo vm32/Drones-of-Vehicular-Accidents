@@ -65,7 +65,6 @@ void loop() {
   digitalWrite(2,LOW);  
   delay(100);
   };
-
   if (a.acceleration.x > 0.06) { 
   digitalWrite(4, HIGH);
   digitalWrite(2,LOW); 
