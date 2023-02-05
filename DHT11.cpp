@@ -36,7 +36,5 @@ void loop() {
   Serial.print(f);
   Serial.print(F("F  Heat index: "));
   Serial.print(hic);
-  Serial.print(F("C "));
-  Serial.print(hif);
-  Serial.println(F("F"));
+  Serial.print(F("C ")); //onlu in c 
 }
