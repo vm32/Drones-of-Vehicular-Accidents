@@ -55,7 +55,17 @@ void loop() {
   delay(100);
 	delay(500);
   
-  if (g.gyro.y > 0.45) { 
+  if (g.gyro.x > 0.45 or g.gyro.x < -0.45) { 
+  digitalWrite(4, HIGH); 
+  digitalWrite(2,LOW);
+  delay(100);
+  Serial.print("Accident detect on gyro : ");
+  Serial.print(g.gyro.y);                      
+  digitalWrite(4, LOW);
+  digitalWrite(2,LOW);  
+  delay(100);
+  };
+  if (g.gyro.y > 0.45 or g.gyro.y < -0.45) { 
   digitalWrite(4, HIGH); 
   digitalWrite(2,LOW);
   delay(100);
